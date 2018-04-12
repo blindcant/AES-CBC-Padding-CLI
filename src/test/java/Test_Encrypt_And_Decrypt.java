@@ -1,6 +1,3 @@
-import CLI.AES_CBC_Padding_Encrypt;
-import CLI.AES_CBC_Padding_Decrypt;
-
 /**
  * <h1>Encryption and Decryption Testing</h1>
  * <p>
@@ -19,8 +16,8 @@ public class Test_Encrypt_And_Decrypt
 	public static void main(String[] args)
 	{
 		// Setup
-		CLI.AES_CBC_Padding_Encrypt encryptRuntime = new AES_CBC_Padding_Encrypt();
-		CLI.AES_CBC_Padding_Decrypt decryptRuntime = new AES_CBC_Padding_Decrypt();
+		AES_CBC_Padding_Encrypt encryptRuntime = new AES_CBC_Padding_Encrypt();
+		AES_CBC_Padding_Decrypt decryptRuntime = new AES_CBC_Padding_Decrypt();
 		
 		String[] ciphertext = new String[3];
 		String[] cipherMode = {"AES128", "AES192", "AES256"};
