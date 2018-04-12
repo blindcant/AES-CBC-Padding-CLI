@@ -1,5 +1,3 @@
-package CLI;
-
 import org.apache.commons.cli.*;
 
 import java.io.BufferedWriter;
@@ -16,9 +14,6 @@ import java.util.Date;
  * <h1>AES CBC Padding CLI Program</h1>
  * <p>
  * This program performs AES 128, 192, or 256 encryption using CBC and PKCS#5 padding.
- * </p>
- * <p>
- * tags:	<insert concept tags here for training code only>
  * </p>
  *
  * @author blindcant
