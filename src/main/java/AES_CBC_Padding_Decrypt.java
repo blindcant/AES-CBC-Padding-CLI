@@ -16,7 +16,8 @@ import java.util.Base64;
  * @author blindcant
  * @version 0.1 - 2018-02-23
  */
-public class AES_CBC_Padding_Decrypt {
+public class AES_CBC_Padding_Decrypt
+{
 	//@@@ INSTANCE VARIABLES @@@
 	private static final Charset CHARSET_UTF8 = Charset.forName("UTF-8");
 	private static final Charset CHARSET_ASCII = Charset.forName("US-ASCII");
@@ -25,7 +26,8 @@ public class AES_CBC_Padding_Decrypt {
 	
 	//@@@ METHODS @@@
 	//### HELPERS ###
-	public static String decrypt(String inputCiphertextBase64, String inputKey) {
+	public static String decrypt(String inputCiphertextBase64, String inputKey)
+	{
 		try {
 			// @@@ JAVA Cryptography @@@
 			// https://docs.oracle.com/javase/7/docs/technotes/guides/security/crypto/CryptoSpec.html#Introduction
